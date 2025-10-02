@@ -40,3 +40,8 @@ def suggest(self, query):
             if key in query.lower():
                 return self.snippets[key]
         return "Sorry, I don't know that yet."
+
+ def suggest(self, query):
+        for key in self.snippets:
+            if key in query.lower():
+                return self.snippets[key]
