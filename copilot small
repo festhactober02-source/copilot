@@ -4,6 +4,9 @@ class MiniCopilot:
             "factorial": """def factorial(n):\n    return 1 if n==0 else n*factorial(n-1)""",
             "linkedlist": """class Node:\n    def __init__(self, data):\n        self.data=data\n        self.next=None"""
         }
+            "linkedlist": """class Node:\n    def __init__(self, data):\n        self.data=data\n        self.next=None"""
+            "linkedlist": """class Node:\n    def __init__(self, data):\n        self.data=data\n        self.next=None"""
+            "linkedlist": """class Node:\n    def __init__(self, data):\n        self.data=data\n        self.next=None"""
 
     def suggest(self, query):
         for key in self.snippets:
