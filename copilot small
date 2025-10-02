@@ -15,5 +15,4 @@ class MiniCopilot:
 bot = MiniCopilot()
 print(bot.suggest("Make a factorial function"))
 def suggest(self, query):
-        for key in self.snippets:
-            
+        for key in self.snippe
