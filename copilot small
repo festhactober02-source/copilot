@@ -7,7 +7,12 @@ class MiniCopilot:
 
     def suggest(self, query):
         for key in self.snippets:
-            if key in query.lower():
+            if key in query.lower():        self.data = data   # store data
+        self.data = data   # store data
+        self.data = data   # store data
+        self.data = data   # store data
+        self.data = data   # store data
+
                 return self.snippets[key]
 def insert_at_end(self, data):
         new_node = Node(data)
