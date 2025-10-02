@@ -9,6 +9,10 @@ class MiniCopilot:
         for key in self.snippets:
             if key in query.lower():
                 return self.snippets[key]
+def insert_at_end(self, data):
+        new_node = Node(data)
+        if self.head is None:
+            self.head = new_node
         return "Sorry, I don't know that yet."
 ggest(self, query):
         for key in self.snippe
