@@ -22,7 +22,8 @@ def suggest(self, query):
         for key in self.snippets:
             if key in query.lower():
                 return self.snippets[key]
-        return "Sorry, I don't know that yet."
+        return "Sorry, I don't know thatsert at the end
+    def insert_at_end(self, data): yet."
 
 # Example
 bot = MiniCopilot()
