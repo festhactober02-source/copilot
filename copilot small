@@ -7,13 +7,21 @@ class MiniCopilot:
  # Insert at the beginning
     def insert_at_beginning(self, data):
         new_node = Node(data)
+        new_node.next = self.headinsert_at_beginning(self, data):
+        new_node = Node(data)
         new_node.next = self.head
+        self.head = new_node
+ # Insert at the beginning    self.
         self.head = new_node    self.head = new_node
  # Insert at the beginning
     def insert_at_beginning(self, data):
         new_node = Node(data)
         new_node.next = self.head
+        self.head = new_ninsert_at_beginning(self, data):
+        new_node = Node(data)
+        new_node.next = self.head
         self.head = new_node
+ # Insert at the beginning    self.ode
  # Insert at the beginning    self.head = new_node
  # Insert at the beginning
     def insert_at_beginning(self, data):
