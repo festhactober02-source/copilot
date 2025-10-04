@@ -7,7 +7,31 @@ class MiniCopilot:
  # Insert at the beginning
     def insert_at_beginning(self, data):
         new_node = Node(data)
-        new_node.next = self.headinsert_at_beginning(self, data):
+        new_node.nelf.data = data   # store data
+        self.next = None   # pointer to next node
+
+def insert_at_end(self, data):
+        new_node = Node(data)
+        if self.head is None:
+            self.head = new_node
+# Linked List classghhvghnvv
+class LinkedList:elf.data = data   # store data
+        self.next = None   # pointer to next node
+
+def insert_at_end(self, data):
+        new_node = Node(data)
+        if self.head is None:
+            self.head = new_node
+# Linked List classghhvghnvv
+class LinkedList:elf.data = data   # store data
+        self.next = None   # pointer to next node
+
+def insert_at_end(self, data):
+        new_node = Node(data)
+        if self.head is None:
+            self.head = new_node
+# Linked List classghhvghnvv
+class LinkedList:ext = self.headinsert_at_beginning(self, data):
         new_node = Node(data)
         new_node.next = self.head
         self.head = new_node
